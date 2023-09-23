@@ -29,16 +29,18 @@ function UsersList() {
     content = <div>Error fetching data...</div>;
   } else {
     content = data.map((user) => {
-      return <UsersListItem key={user.id} user={user}/>
-
+      return <UsersListItem key={user.id} user={user} />;
     });
   }
 
   return (
-    <div>
-      <div className="flex flex-row justify-between items-center m-3">
-        <h1 className="m-2 text-xl">Users</h1>
-        <Button loading={isCreatingUser} onClick={handleUserAdd}>
+    <div className=" m-2">
+      <div className="flex flex-row justify-end  ">
+        <Button
+          className="m-2 hover:bg-yellow-300"
+          loading={isCreatingUser}
+          onClick={handleUserAdd}
+        >
           + Add User
         </Button>
         {creatingUserError && "Error creating user..."}

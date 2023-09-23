@@ -14,7 +14,7 @@ function UsersListItem({ user }) {
 
   const header = (
     <>
-      <Button className="mr-3" loading={isLoading} onClick={handleClick}>
+      <Button className="mr-3 " loading={isLoading} onClick={handleClick}>
         <GoTrash />
       </Button>
       {error && <div>Error deleting user.</div>}
@@ -23,9 +23,12 @@ function UsersListItem({ user }) {
   );
 
   return (
+    <div className='bg-lime-400 rounded-md'>
     <ExpandablePanel header={header}>
       <AlbumsList user={user} />
     </ExpandablePanel>
+    </div>
+
   );
 }
 

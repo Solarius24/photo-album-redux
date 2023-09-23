@@ -1,20 +1,47 @@
 {
   "users": [
     {
-      "name": "Elenor",
-      "id": 2
-    },
-    {
-      "name": "Fausto",
-      "id": 3
+      "name": "Gabe",
+      "id": 1
     }
   ],
   "albums": [
     {
-      "userId": 3,
-      "title": "Recycled Fresh Cheese",
+      "userId": 1,
+      "title": "Intelligent Concrete Fish",
       "id": 1
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6988565162491904",
+      "id": 1
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5496317853827072",
+      "id": 2
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=668603556823040",
+      "id": 3
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7558141745037312",
+      "id": 4
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8362930477203456",
+      "id": 5
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1691124399865856",
+      "id": 6
+    }
+  ]
 }
